@@ -159,3 +159,25 @@ body {
         margin:10px;
         margin-left:600px;
     }
+    .spanyfelf {
+        width:200px;
+        float:right;
+        margin: 15px;
+        margin-top:-80px;
+        border: 2px solid black;
+        border-radius:15px;
+    }
+    .spanyfelf2 {
+        width:200px;
+        margin:15px;
+        border: 2px solid black;
+        border-radius:15px;
+        margin-left: 50px;
+    }
+    .spanyfelf3 {
+        width:200px;
+        margin:15px;
+        border: 2px solid black;
+        border-radius:15px;
+        margin-left: 50px;
+    }
