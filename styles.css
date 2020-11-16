@@ -1,5 +1,7 @@
 body {
     background-color: #ccffe6;
+    color:black;
+    font-size: 18px;
 }
 .navbar {
     overflow: hidden;
@@ -77,4 +79,66 @@ body {
   }
   .underline {
       text-decoration: underline;
+      font-weight: bold;
   }
+  h2 {
+      border-left:6px solid #267326;
+      padding: 5px;
+      background-color:#b3cccc;
+      width:365px;   
+  }
+  #okai {
+      border-left:6px solid #267326;
+      padding: 5px;
+      background-color:#b3cccc;
+      width:65px;
+  }
+  #indi {
+    border-left:6px solid #267326;
+    padding: 5px;
+    background-color:#b3cccc;
+    width:195px;
+  }
+  .gyarm {
+    border-left:6px solid #267326;
+    padding: 5px;
+    background-color:#b3cccc;
+    width:275px;
+  }
+  .kep1 {
+      width:300px;
+      float:right;
+      border: 2px solid black;
+      border-radius:15px;
+      margin:20px;
+      margin-top:-100px;
+  }
+  .kep2 {
+    width:300px;
+    float:center;
+    border: 2px solid black;
+    border-radius:15px;
+    margin:20px;
+  }
+  .kep3 {
+    width:300px;
+    float:right;
+    border: 2px solid black;
+    border-radius:15px;
+    margin:20px;
+    margin-top:-150px;
+}
+    .gyarmkep {
+        float:right;
+        margin:50px;
+        margin-top: -80px;
+        border: 2px solid black;
+        border-radius: 15px;
+    }
+    footer {
+        color: lightgray;
+        background-color: #42455a;
+        text-align: center;
+        font-size: 14px;
+        padding: 3px;
+    }
