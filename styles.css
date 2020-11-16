@@ -67,3 +67,14 @@ body {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  h1 {
+    text-align: center;
+    font-size: 32px;
+    text-decoration: underline;
+  }
+  .dolog {
+      margin-left: 20px;
+  }
+  .underline {
+      text-decoration: underline;
+  }
