@@ -6,6 +6,8 @@ body {
 .navbar {
     overflow: hidden;
     background-color: #000;
+    padding-right:15px;
+    padding-left: 15px;
   }
   
   .navbar a {
@@ -141,4 +143,19 @@ body {
         text-align: center;
         font-size: 14px;
         padding: 3px;
+    }
+    .portfelf {
+        width: 200px;
+        float:right;
+        margin:50px;
+        margin-top:-80px;
+        border: 2px solid black;
+        border-radius:15px;
+    }
+    .portfelf2 {
+        width: 200px;
+        border: 2px solid black;
+        border-radius:15px;
+        margin:10px;
+        margin-left:600px;
     }
