@@ -181,3 +181,19 @@ body {
         border-radius:15px;
         margin-left: 50px;
     }
+    .angfelf {
+        width:200px;
+        float:right;
+        margin: 15px;
+        margin-right:150px;
+        margin-top:-80px;
+        border:2px solid black;
+        border-radius:15px;
+    }
+    .angfelf2 {
+        width:200px;
+        margin:15px;
+        border:2px solid black;
+        border-radius:15px;
+        margin-left:50px;
+    }
