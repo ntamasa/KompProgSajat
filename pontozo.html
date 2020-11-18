@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pontozólap</title>
+    <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" crossorigin="anonymous">
+</head>
+<body>
+        
+        <div class="navbar">
+                <a href="alap.html">A nagy földrajzi felfedezések</a>
+                <a href="forras.html">Források</a>
+                <div class="dropdown">
+                  <button class="dropbtn">Felfedezők
+                    <i class="fa fa-angle-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="portugal.html">Portugál</a>
+                    <a href="spanyol.html">Spanyol</a>
+                    <a href="angol.html">Angol</a>
+                    <a href="francia.html">Francia</a>
+                  </div>
+                </div> 
+              </div>
+              <div>
+<div id="main">
+    <div id="head"><h3>Pontozólap</h3></div>
+    <label>Feladatmegértés:</label><input type="text" id="elso"><br>
+    <label>Tájékozódás térben és időben:</label><input type="text" id="masodik"> <br>
+    <label>Kommunikáció, a szaknyelv alkalmazása:</label><input type="text" id="harmadik"><br>
+    <label>Ismeretszerzés, a források használata:</label><input type="text" id="negyedik"><br>
+    <br>
+    <button class="btn1" onclick="osszeg()">Összes pontszám</button>
+    <button class="btn2" onclick="jegy()">Érdemjegy</button>
+</div>
+<div id="eredmeny">
+    <div id="head1"><h3>Összes pontszám</h3></div>
+    <div id="osszeg">
+
+    </div>
+    <div id="head2"><h3>Érdemjegy</h3></div>
+    <div id="jegy">
+        
+    </div>
+</div>
+    <footer>Copyright © 2020, Nagy Tamás Albert</footer>
+<script src="script.js"></script>
+</body>
+</html>

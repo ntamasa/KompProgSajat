@@ -1,3 +1,9 @@
+*{
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin:auto;
+  padding:auto;
+}
 body {
     background-color: #ccffe6;
     color:black;
@@ -75,6 +81,7 @@ body {
     text-align: center;
     font-size: 32px;
     text-decoration: underline;
+    margin:15px;
   }
   .dolog {
       margin-left: 20px;
@@ -87,25 +94,27 @@ body {
       border-left:6px solid #267326;
       padding: 5px;
       background-color:#b3cccc;
-      width:365px;   
+      width:420px;
+      text-align:left;
+      margin:10px;
   }
   #okai {
       border-left:6px solid #267326;
       padding: 5px;
       background-color:#b3cccc;
-      width:65px;
+      width:85px;
   }
   #indi {
     border-left:6px solid #267326;
     padding: 5px;
     background-color:#b3cccc;
-    width:195px;
+    width:230px;
   }
   .gyarm {
     border-left:6px solid #267326;
     padding: 5px;
     background-color:#b3cccc;
-    width:275px;
+    width:320px;
   }
   .kep1 {
       width:300px;
@@ -143,6 +152,8 @@ body {
         text-align: center;
         font-size: 14px;
         padding: 3px;
+        clear:both;
+        margin-top: 20px;
     }
     .portfelf {
         width: 200px;
@@ -212,4 +223,97 @@ body {
         border: 2px solid black;
         border-radius:15px;
         margin-left:50px;
+    }
+    #main {
+      width:40%;
+      height: 500px;
+      text-align:center;
+      margin: 40px 10px 0 150px;
+      background-color: white;
+      float:left;
+    }
+    #head {
+      background-color: black;
+      width: 100%;
+      height: 55px;
+      color: white;
+      padding: 10px;
+      margin-bottom: 60px;
+    }
+    #main input {
+      height: 30px;
+      width:45%;
+      margin-bottom:10px;
+      font-size: 20px;
+    }
+    #main label {
+      font-size: 23;
+      padding-right:50px;
+      margin-bottom:10px;
+    }
+
+    #eredmeny {
+      height: 500px;
+      width: 30%;
+      float: left;
+       margin-top:40px;
+       background-color: white;
+    }
+    #head1, #head2 {
+      background-color: black;
+      width:100%;
+      height: 45px;
+      color:white;
+      text-align: center;
+    }
+    #osszeg {
+      height: 200px;
+      width: 100%;
+      padding: 20px;
+      background-color:white;
+      font-size:19px;
+      font-weight: 600;
+      text-align:center;
+    }
+    #jegy {
+      height: 80px;
+      width: 100%;
+      padding:20px;
+      font-size:19px;
+      font-weight: 600;
+      background-color:white;
+      text-align:center;
+    }
+    label {
+      float:left;
+      margin:5px;
+    }
+    #elso, #masodik, #harmadik, #negyedik {
+      float:right;
+    }
+    .btn1 {
+      outline:none;
+      border: none;
+      width:30%;
+      height: 55px;
+      margin-right:30px;
+      margin-top: 65px;
+      margin-left:80px;
+      font-size: 22px;
+      background-color: lightgrey;
+      float:left;
+    }
+    .btn2 {
+      outline:none;
+      border:none;
+      width:30%;
+      height:40px;
+      font-size:22px;
+      background-color: lightgrey;
+      margin-right:30px;
+      margin-top:30px;
+      float:left;
+    }
+    #forras {
+      margin-left:20px;
     }
